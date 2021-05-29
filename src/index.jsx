@@ -9,7 +9,7 @@ const App = () => (
     {jokes.map((joke) => (
       <Joke
         key={joke.id}
-        userName={joke.userName}
+        userName={joke.name}
         userAvatar={joke.avatar}
         text={joke.text}
         likes={joke.likes}
